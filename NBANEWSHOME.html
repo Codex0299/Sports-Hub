@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clickable Images</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="NBANEWSHOME.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="sports">Sports News</h1>
+  </header>
+
+  <nav>
+    <a href="HOME.html">Home</a>
+        <a href="FOOTBALLNEWS.html">Football</a>
+        <a href="NBANEWSHOME.HTML">Basketball</a>
+        <a href="F1HOME.html">F1</a>
+        <a href="CRICKETNEWS.html">Cricket</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  
+  
+    <div id="live-info">
+      <span id="live-icon">&#9673;</span>
+      <p class="live-text">Live Score Board</p>
+    </div>
+
+    <div class="nbascore">
+      <img src="nbaimg/nbascore.png" alt="">
+    </div>
+    <div class="nbascore">
+      <img src="nbaimg/nba score 2.png" alt="">
+    </div>
+  
+    
+   
+
+  <div id="imageContainer">
+    <div class="imageCard" onclick="navigateTo('nba1.html')">
+      <img src="nbaimg/nbaimg1.webp" alt="Image 1">
+      <div class="imageText"><b>India may have started dreaming <br>of another big total when Sri Lanka <br>introduced left-arm spinner <br> Dunith Wellalage into <br>the attack who broke the opening <br>stand with the <br> wicket of Shubman Gill.</b></div>
+    </div>
+
+    <div class="imageCard" onclick="navigateTo('nba2.html')">
+      <img src="nbaimg/nbaimg2.avif" alt="Image 2">
+      <div class="imageText"><b>Duntih Wellalage ran through the <br>India top-order as he got rid ofbr
+         <br>Shubman Gill, Virat Kohli and <br>Rohit Sharma in successive overs</b></div>
+    </div>
+
+    <div class="imageCard" onclick="navigateTo('nba3.html')">
+      <img src="nbaimg/nbaimg3.avif" alt="Image 3">
+      <div class="imageText"><b>Asia Cup 2023,IND vs SL <br>in Pictures:India Seal Final Berth <br>With Impressive Win</b></div>
+    </div>
+    
+
+    <div class="imageCard" onclick="navigateTo('nba4.html')">
+      <img src="nbaimg/nbaimg4.avif" alt="Image 4">
+      <div class="imageText"> <b> Rohit Sharma was undone <br> by the one that stayed low <br> after having registered his <br> third straight half-century in a row </b></div>
+    </div>
+  </div>
+
+  <script>
+    function navigateTo(url) {
+      window.location.href = url;
+    }
+  </script>
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  
+  
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+  </ul>
+  <p>&copy;2023 XD/DHRUVESH | All Rights Reserved</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clickable Images</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="crickethome.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="sports">Sports News</h1>
+  </header>
+
+  <nav>
+    <a href="HOME.html">Home</a>
+        <a href="FOOTBALLNEWS.html">Football</a>
+        <a href="NBANEWSHOME.HTML">Basketball</a>
+        <a href="F1HOME.html">F1</a>
+        <a href="CRICKETNEWS.html">Cricket</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  
+  
+    <div id="live-info">
+      <span id="live-icon">&#9673;</span>
+      <p class="live-text">Live Score Board</p>
+    </div>
+  
+    <div class="score-board">
+      <table class="team" id="team1">
+        <caption>India</caption>
+        <tr>
+          <th>Batsman</th>
+          <th>Runs</th>
+          <th>Balls</th>
+        </tr>
+        <tr>
+          <td>Rohit Sharma</td>
+          <td>50</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Virat Kohli</td>
+          <td>40</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>KL Rahul</td>
+          <td>30</td>
+          <td>20</td>
+        </tr>
+      </table>
+  
+      <table class="team" id="team2">
+        <caption>Sri Lanka</caption>
+        <tr>
+          <th>Bowler</th>
+          <th>Wickets</th>
+          <th>Overs</th>
+          <th>Runs</th>
+        </tr>
+        <tr>
+          <td>Wanindu Hasaranga</td>
+          <td>1</td>
+          <td>4</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Dushmantha Chameera</td>
+          <td>1</td>
+          <td>4</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Chamika Karunaratne</td>
+          <td>1</td>
+          <td>3</td>
+          <td>28</td>
+        </tr>
+      </table>
+    </div>
+   
+
+  <div id="imageContainer">
+    <div class="imageCard" onclick="navigateTo('cricket1.html')">
+      <img src="cricketimg/crickethome1.jpg" alt="Image 1">
+      <div class="imageText"><b>India may have started dreaming <br>of another big total when Sri Lanka <br>introduced left-arm spinner <br> Dunith Wellalage into <br>the attack who broke the opening <br>stand with the <br> wicket of Shubman Gill.</b></div>
+    </div>
+
+    <div class="imageCard" onclick="navigateTo('cricket2.html')">
+      <img src="cricketimg/crickethome2.jpg" alt="Image 2">
+      <div class="imageText"><b>Duntih Wellalage ran through the <br>India top-order as he got rid ofbr
+         <br>Shubman Gill, Virat Kohli and <br>Rohit Sharma in successive overs</b></div>
+    </div>
+
+    <div class="imageCard" onclick="navigateTo('cricket3.html')">
+      <img src="cricketimg/crickethome3.jpg" alt="Image 3">
+      <div class="imageText"><b>Asia Cup 2023,IND vs SL <br>in Pictures:India Seal Final Berth <br>With Impressive Win</b></div>
+    </div>
+    
+
+    <div class="imageCard" onclick="navigateTo('cricket4.html')">
+      <img src="cricketimg/crickethome4.jpg" alt="Image 4">
+      <div class="imageText"> <b> Rohit Sharma was undone <br> by the one that stayed low <br> after having registered his <br> third straight half-century in a row </b></div>
+    </div>
+  </div>
+
+  <script>
+    function navigateTo(url) {
+      window.location.href = url;
+    }
+  </script>
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  
+  
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+  </ul>
+  <p>&copy;2023 XD/DHRUVESH | All Rights Reserved</p>
+
+
+</body>
+
+</html>
